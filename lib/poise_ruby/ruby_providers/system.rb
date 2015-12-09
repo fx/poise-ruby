@@ -34,8 +34,8 @@ module PoiseRuby
           '6' => %w{ruby1.8},
         },
         ubuntu: {
-          '14.04' => %w{ruby2.0 ruby1.9.3},
-          '12.04' => %w{ruby1.9.3 ruby1.8},
+          '14.04' => %w{ruby2.2 ruby2.0 ruby1.9.3},
+          '12.04' => %w{ruby2.2 ruby1.9.3 ruby1.8},
           '10.04' => %w{ruby1.9.1 ruby1.8},
         },
         rhel: {default: %w{ruby}},
